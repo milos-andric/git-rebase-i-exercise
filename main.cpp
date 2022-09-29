@@ -8,7 +8,7 @@ void reverse (std::string& input)
 
 	input.copy(tab, 499);
 	for(int i = 0; i < 500; i++){
-		tab[i] = input[499 - i];
+		tab[i] = input.at(499 - i);
 	}
 	std::string temp(tab);
 	std::cout << temp << std::endl;
