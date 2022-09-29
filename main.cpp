@@ -4,14 +4,7 @@ void reverse (std::string& input);
 
 void reverse (std::string& input)
 {
-	char tab[input.size()];
-
-	for(int i = 0; i < input.size() - 1; i++){
-		tab[i] = input.at(input.size() - i - 1);
-	}
-	tab[input.size() - 1] = '\0';
-	std::string temp(tab);
-	std::cout << temp << std::endl;
+	std::reverse(input.begin(), input.end());
 }
 
 int main(int argc, char* argv[])
@@ -22,4 +15,5 @@ int main(int argc, char* argv[])
 	// and finally prints it first the right way then in reverse on the same line
 	std::string test = " hellooooooooo WORLD";
 	reverse(test);
+	std::cout << test << std::endl;
 }
