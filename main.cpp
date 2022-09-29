@@ -2,7 +2,7 @@ int main(int argc, char* argv[])
 {
 	// make a program that takes a string as a parameter
 	// first reverse it - Assigned to Philip
-	// delete all all leading and trailing whitespaces from the string
+	// delete all all leading and trailing whitespaces from the string - Assigned to Terrence
 	// and finally prints it first the right way then in reverse on the same line
 
 	if (argc == 1){
