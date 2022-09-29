@@ -1,3 +1,5 @@
+const auto begin = input.find_first_not_of(whitespace);
+const auto end = input.find_last_not_of(whitespace);
 int main(int argc, char* argv[])
 {
 	// make a program that takes a string as a parameter
