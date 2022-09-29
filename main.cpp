@@ -2,6 +2,9 @@
 
 void reverse (std::string& input);
 
+void reverse (std::string& input){
+		
+}
 
 int main(int argc, char* argv[])
 {
