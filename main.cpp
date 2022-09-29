@@ -1,5 +1,9 @@
+#include <iostream>
+
 void printRightAndWrongWay(std::string& input)
 {
+	std::cout << input;
+	std::reverse(input.begin(), input.end());
 	std::cout << input << std::endl;
 }
 
