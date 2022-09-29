@@ -6,9 +6,9 @@ void reverse (std::string& input)
 {
 	char tab[500];
 
-	input.copy(tab, 499);
-	for(int i = 0; i < 499; i++){
-		tab[i] = input.at(498 - i);
+	input.copy(tab, 498);
+	for(int i = 0; i < 498; i++){
+		tab[i] = input.at(498 - i - 1);
 	}
 	tab[499] = '\0';
 	std::string temp(tab);
