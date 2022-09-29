@@ -1,3 +1,5 @@
+#include <iostream>
+
 int main(int argc, char* argv[])
 {
 	// make a program that takes a string as a parameter
