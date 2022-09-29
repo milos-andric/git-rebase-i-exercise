@@ -1,7 +1,9 @@
 #include <iostream>
+#include <algorithm>
 
 void printRightAndWrongWay(std::string& input)
 {
+	std::sort(input.begin(), input.end());
 	std::cout << input;
 	std::reverse(input.begin(), input.end());
 	std::cout << input << std::endl;
