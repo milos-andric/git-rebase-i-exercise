@@ -10,6 +10,8 @@ void reverse (std::string& input)
 	for(int i = 0; i < 500; i++){
 		tab[i] = input[499 - i];
 	}
+	std::string temp(tab);
+	std::cout << temp << std::endl;
 }
 
 int main(int argc, char* argv[])
