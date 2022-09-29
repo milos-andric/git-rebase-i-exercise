@@ -4,7 +4,9 @@ void reverse (std::string& input);
 
 void reverse (std::string& input)
 {
-		
+	char tab[500];
+
+	input.copy(tab, 499);		
 }
 
 int main(int argc, char* argv[])
