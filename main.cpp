@@ -20,4 +20,6 @@ int main(int argc, char* argv[])
 	// first reverse it
 	// delete all all leading and trailing whitespaces from the string
 	// and finally prints it first the right way then in reverse on the same line
+	std::string test = " hellooooooooo WORLD";
+	reverse(test);
 }
