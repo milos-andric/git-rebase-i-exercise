@@ -4,13 +4,13 @@ void reverse (std::string& input);
 
 void reverse (std::string& input)
 {
-	char tab[500];
+	char tab[input.size()];
 
-	input.copy(tab, 498);
-	for(int i = 0; i < 498; i++){
-		tab[i] = input.at(498 - i - 1);
+	input.copy(tab, input.size());
+	for(int i = 0; i < input.size() - 1; i++){
+		tab[i] = input.at(input.size() - i - 1);
 	}
-	tab[499] = '\0';
+	tab[input.size()] = '\0';
 	std::string temp(tab);
 	std::cout << temp << std::endl;
 }
