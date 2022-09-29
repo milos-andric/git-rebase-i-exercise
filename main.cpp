@@ -1,7 +1,7 @@
 	const auto whitespace = " ";
 	const auto begin = input.find_first_not_of(whitespace);
 	const auto end = input.find_last_not_of(whitespace);
-
+	const auto range = end - begin + 1;
 	input = input.substr(begin, range);
 int main(int argc, char* argv[])
 {
